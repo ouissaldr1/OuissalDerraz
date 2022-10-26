@@ -9,7 +9,8 @@ header("Content-Type: application/download");
 header("Content-Description: File Transfer");            
 header("Content-Length: " . filesize($file));
   
-  
+ob_clean(); 
+flush();  
 $fp = fopen($file, "r");
 while (!feof($fp)) {
     echo fread($fp, 8192);
