@@ -9,7 +9,6 @@ header("Content-Type: application/download");
 header("Content-Description: File Transfer");            
 header("Content-Length: " . filesize($file));
   
-flush(); // This doesn't really matter.
   
 $fp = fopen($file, "r");
 while (!feof($fp)) {
