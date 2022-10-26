@@ -275,9 +275,10 @@ li {
   margin-bottom: 15px
 }
 .social .item p{
+  margin-top: 3px;
   font-weight: 500
 }
-.social .item p a{
+.social .item p a,.social .item a{
   text-decoration: none;
   color: black
 }
