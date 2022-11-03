@@ -28,9 +28,6 @@ sr.reveal(
   }
 );
 
-sr.reveal(`.project-picture`, {
-  origin: "bottom",
-});
 // ***************media queries ***************
 // header
 const close = document.querySelector(".close");
